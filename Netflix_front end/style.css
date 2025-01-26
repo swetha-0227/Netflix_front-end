@@ -1,0 +1,127 @@
+#main1 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#img1 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+#main11 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+
+#main11 img {
+    width: 400px;
+}
+
+#main12 {
+    top: 100px;
+    top: 90vw;
+    height: 40vh;
+}
+
+#main12img {
+    position: absolute;
+    height: 45vh;
+    top: 300px;
+    border: 2px whitesmoke solid;
+    width: 80vw;
+    left: 10vw;
+    border-radius: 90px;
+    filter: brightness(30%)
+}
+
+#main13 {
+    position: absolute;
+    top: 400px;
+    color: white;
+    width: 60vw;
+    left: 20vw;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 100;
+}
+
+#sub4 img{
+    width:500px;
+    height: 700px;
+    border-radius: 30px;
+    border:7px rgb(194, 194, 194) solid;
+    
+}
+#sub4{
+    position: relative;
+}
+
+#main14{
+    position: absolute;
+    bottom:800px;
+    width: 90%;
+    left:5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#main14 td{
+    padding-left: 90px;
+}
+
+#main15{
+    position: relative;
+    right:20px;
+    bottom: 1100px;
+    margin-left: 5000px;
+    
+}
+#main15 select{
+    width:500px;
+    height:120px;
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    border-radius: 30px;
+
+   
+}
+#main15 button{
+    width:500px;
+    height:120px;
+    background-color: red;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    border-radius: 30px;
+}
+#btnstarted{
+     position:absolute;
+     bottom: 350px;
+     right: 30%;;
+
+}
+#email{
+    background-color: white;
+    width: 1900px;
+    height: 250px;
+    font-size: 70px;
+   
+}
+
+#get {
+    background-color: red;
+    width: 480px;
+    height: 250px;
+    font-size: 70px;
+   
+}
+#main14 td:hover {
+    transform: scale(1.2);
+}
+
